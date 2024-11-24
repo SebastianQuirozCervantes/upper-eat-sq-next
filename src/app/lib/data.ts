@@ -1,4 +1,4 @@
-const URL = 'http://localhost:3000/api'
+const URL = 'https://upper-eat-sq.onrender.com'
 
 export async function fetchBookingsByUser() {
   const token = localStorage.getItem('token')
