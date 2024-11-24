@@ -1,4 +1,4 @@
-const URL = 'https://upper-eat-sq.onrender.com'
+const URL = 'https://upper-eat-sq.onrender.com/api'
 
 export async function fetchBookingsByUser() {
   const token = localStorage.getItem('token')
